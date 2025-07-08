@@ -9,41 +9,51 @@
 </head>
 
 <body>
-  <!-- Theme Toggle Section -->
-    <section class="theme-toggle">
-        <button id="toggleThemeBtn">Toggle Theme</button>
-    </section>
-
-
-    <!-- Button that will trigger data display from localStorage more info about me -->
-    <button id="getBtn">Get User Info</button>
-
+    
+    <!--Background -->
+    <section class="background">
+        
+    <i class="fa-solid fa-bars"></i>
+   
     <!--  header navigation  -->
-  <section class="header">
-    <!-- <h1 id="greeting">Welcome to my portfolio</h1>
-    <p id="dayMessage"></p>
-    <p id="aboutMe"></p> -->
-    <nav>
+  <header class="header">
+    <a href='#' class="logo"> Joy;]</a>
+    <nav class=" navbar">
       <!-- Navigation links scroll to respective page sections -->
-      <li><a href="#home">Home</a></li>
+      <li><a href="#home" class="active">Home</a></li>
       <li><a href="#my_about">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact_form">Contact</a></li>
 
     </nav>
-  </header>
+</header>
 
   <main>
 
     <!--  Home section  -->
-    <section class="home-background">
-    <section id="home">
-      <h2>Home</h2>
-      
+    
+    <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi!, I'm Joy Sigbeku</h1>
+      <h3> And I'm a <span>Software Developer</span></h3>
       <p>
         Welcome to my Portfolio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis reprehenderit nostrum doloribus similique perferendis mollitia voluptate excepturi aliquid omnis quia cumque debitis dolor molestias quod, possimus quo harum consequuntur?
       </p>
+      <div class="social media">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <a href="#" class= "btn"> Download CV</a>
+
+    </div>
+
+    <div class= "home-img"> 
+    <img src="assets/computercode.jpg" alt="">
+    </div>
       </section>
+
     </section>
 
     <!--  About section-->
@@ -110,11 +120,12 @@
     </section>
 
        <!-- confirmation section -->
-    <section id="confirmation" class="confirmation-message">
-      <h1>Thank You!</h1>
-      <p>Your message has been received. I'll get back to you as soon as possible.</p>
-      <a href="index.html" class="back-home-btn">Return to Home</a>
-    </section>
+        <section id="confirmation" class="confirmation-message">
+        <h1>Thank You!</h1>
+        <p>Your message has been received. I'll get back to you as soon as possible.</p>
+        <a href="index.html" class="back-home-btn">Return to Home</a>
+        </section>
+    
   </main>
 
   <footer>

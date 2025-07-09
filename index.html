@@ -12,18 +12,19 @@
     
     <!--Background -->
     <section class="background">
-        
-    <i class="fa-solid fa-bars"></i>
    
     <!--  header navigation  -->
   <header class="header">
     <a href='#' class="logo"> Joy;]</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
     <nav class=" navbar">
       <!-- Navigation links scroll to respective page sections -->
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#my_about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact_form">Contact</a></li>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact_form">Contact</a>
 
     </nav>
 </header>
@@ -39,7 +40,7 @@
       <p>
         Welcome to my Portfolio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis reprehenderit nostrum doloribus similique perferendis mollitia voluptate excepturi aliquid omnis quia cumque debitis dolor molestias quod, possimus quo harum consequuntur?
       </p>
-      <div class="social media">
+      <div class="social-media">
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
@@ -57,44 +58,57 @@
     </section>
 
     <!--  About section-->
-    <section id="my_about" class="about-section">
-      <section class="about-image">
+    <section id="about" class="about">
+      <section class="about-img">  
         <!-- Developer  image -->
-        <img src="./assets/joy.jpg" alt="Profile Image">
+        <img src="./assets/joy.jpg" alt="">
       </section>
-      <section class="about-text">
-        <h2>About</h2>
+      <section class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer</h3> 
         <p>
           I am Joy, a passionate amd driven developer dedicated to creating clean,
           modern, and responsive web applications. I enjoy blending elegant
           design with efficient code to solve real-world problems.
         </p>
+        <a href="#" class="btn">Read more</a>
       </section>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <section class="project-cards">
+    <section class="projects" id="projects"> 
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <section class="project-containers">
         <!-- Project card  -->
-        <section class="project-card">
+        <section class="project-card"> 
           <h3>Project One</h3>
-          <p>In this profile I have learnt and applied my knowledge on HTML, CSS and Javascript
-            to build an interactive page
+          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis unde tempora saepe iure esse hic explicabo asperiores sapiente eveniet, obcaecati dignissimos deleniti beatae quas? Obcaecati, esse sed! Nihil, maiores.
           </p>
+          <a href="#" class="btn">Read More</a>
         </section>
-        <section class="project-card">
+
+        <section class="project-card"> 
           <h3>Project Two</h3>
-          <p>Brief description of the project or feature.</p>
+          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis suscipit sit deleniti, mollitia quas dolorem odio dolores iusto ratione ullam earum veniam corporis voluptatum perferendis, fuga eveniet aliquid quasi!
+          </p>
+          <a href="#" class="btn">Read More</a>
         </section>
-        <section class="project-card">
-          <h3>Project Three</h3>
-          <p>Brief description of the project or feature.</p>
+
+        <section class="project-card"> 
+          <h3>Project three</h3>
+          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci dicta rem! Ratione vitae placeat id non ipsa, quae necessitatibus modi reprehenderit fugiat maxime. Eius iure atque harum quidem rem!
+          </p>
+          <a href="#" class="btn">Read More</a>
         </section>
-        <section class="project-card">
+
+       <section class="project-card"> 
           <h3>Project Four</h3>
-          <p>Brief description of the project or feature.</p>
+          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis labore quibusdam autem, amet recusandae, soluta eligendi qui neque obcaecati itaque laudantium eveniet ex sit aliquam sapiente exercitationem sunt quisquam?
+          </p>
+          <a href="#" class="btn">Read More</a>
         </section>
+
       </section>
     </section>
 

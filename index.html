@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Main CSS-->
     <title>Joy's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     
@@ -23,7 +28,8 @@
       <!-- Navigation links scroll to respective page sections -->
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#contact_form">Contact</a>
 
     </nav>
@@ -44,14 +50,14 @@
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
       </div>
       <a href="#" class= "btn"> Download CV</a>
 
     </div>
 
     <div class= "home-img"> 
-    <img src="assets/computercode.jpg" alt="">
+    <img src="assets/myface1.jpeg" alt="">
     </div>
       </section>
 
@@ -61,7 +67,7 @@
     <section id="about" class="about">
       <section class="about-img">  
         <!-- Developer  image -->
-        <img src="./assets/joy.jpg" alt="">
+        <img src="./assets/myface2.jpeg" alt="">
       </section>
       <section class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
@@ -75,61 +81,101 @@
       </section>
     </section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects"> 
-      <h2 class="heading">My <span>Projects</span></h2>
+    
 
-      <section class="project-containers">
+    <!--Portfolio Section-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span> Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/binary.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4> Web Design</h4> 
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ut placeat eos minima maxime tempora aut voluptates iure minus dolorem assumenda rem, facere autem velit ad officiis et. Ab, dolorem.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+          <div class="portfolio-box">
+          <img src="assets/binary.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4> Web Design</h4> 
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ut placeat eos minima maxime tempora aut voluptates iure minus dolorem assumenda rem, facere autem velit ad officiis et. Ab, dolorem.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+          <div class="portfolio-box">
+          <img src="assets/binary.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4> Web Design</h4> 
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ut placeat eos minima maxime tempora aut voluptates iure minus dolorem assumenda rem, facere autem velit ad officiis et. Ab, dolorem.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills"> 
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <section class="skill-containers">
         <!-- Project card  -->
-        <section class="project-card"> 
-          <h3>Project One</h3>
-          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis unde tempora saepe iure esse hic explicabo asperiores sapiente eveniet, obcaecati dignissimos deleniti beatae quas? Obcaecati, esse sed! Nihil, maiores.
+        
+        <section class="skill-card"> 
+          <h3>HTML & CSS</h3>
+          <p>Brief description 
           </p>
           <a href="#" class="btn">Read More</a>
         </section>
 
-        <section class="project-card"> 
-          <h3>Project Two</h3>
-          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis suscipit sit deleniti, mollitia quas dolorem odio dolores iusto ratione ullam earum veniam corporis voluptatum perferendis, fuga eveniet aliquid quasi!
+        <section class="skill-card"> 
+          <h3>JavaScript</h3>
+          <p>Brief description 
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </section>
+        
+         <section class="skill-card"> 
+          <h3>My SQL</h3>
+          <p>Brief description 
           </p>
           <a href="#" class="btn">Read More</a>
         </section>
 
-        <section class="project-card"> 
-          <h3>Project three</h3>
-          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci dicta rem! Ratione vitae placeat id non ipsa, quae necessitatibus modi reprehenderit fugiat maxime. Eius iure atque harum quidem rem!
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </section>
+          
 
-       <section class="project-card"> 
-          <h3>Project Four</h3>
-          <p>Brief description Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis labore quibusdam autem, amet recusandae, soluta eligendi qui neque obcaecati itaque laudantium eveniet ex sit aliquam sapiente exercitationem sunt quisquam?
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </section>
+
 
       </section>
     </section>
+    
+
 
         <!--Contact section-->
-    <section id="contact">
-      <h2>Contact</h2>
-      <form action="confirmation.html" id="contact_form">
+    <section class= "contact" id="contact_form">
+      <h2 class="heading">Contact <span>Me </span></h2>
+      <form action="#" >
         <!-- Name input field -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required />
+          <input type="text"placeholder="Email Address" required />
+        </div>
         <!-- Email input field -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+         <div class="input-box">
+          <input type="number"  placeholder="Mobile Number"  />
+          <input type="text"placeholder="Email Subject" required />
+        </div>
 
+       
         <!-- Message textarea field -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <textarea name="" id="" placeholder="Message" cols="30" rows="5" required></textarea>
 
         <!-- Submit button -->
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Send Message" class="btn"/>
       </form>
     </section>
 
@@ -143,8 +189,12 @@
   </main>
 
   <footer>
-
-    <p>&copy; 2025 Joy Sigbeku. All rights reserved.</p>
+    <div class= "footer-text">
+    <p>&copy; 2025 Joy Sigbeku | All rights reserved.</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+  </div>
   </footer>
 
 <script src="script.js"></script> 

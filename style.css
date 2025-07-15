@@ -8,7 +8,8 @@
     text-decoration: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; 
+    list-style: none;
 }
 
 :root {
@@ -203,49 +204,80 @@ span{
     margin: 2rem 0 3rem;
 }
 
-.skills h2 {
-    margin-bottom: 5rem;
-    font-size: 2.6rem;
+h3{
+    margin: 5px;
+}
+
+.skills h2{
+    font-size: 3.2rem;
+}
+
+.skill {
+    width: 500px;
+    margin: 60px auto;
+    color: var(--snd-bg-color);
+    font-weight: 100px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1);
+    
 
 }
 
-.skill-containers {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-wrap:wrap;
-    gap: 2rem;
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: var(--main-color);
+    display: block;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.12);
+    transition: all 0.3s cubic-bezier(.25, .8,.25,1)
+    
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 
 }
 
-.skill-containers .skill-card {
-    flex: 1 1 10rem;
-
-    background: var(--snd-bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid var(--bg-color);
-    transition: .5s ease;
+.bar span{
+    height: 30px;
+    float: left;
+    background: linear-gradient(135deg, rgb(138, 5, 216)0%,rgb(193, 6, 218)100%)
+    
 }
 
-.skill-containers .skill-card:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
+.HTML{
+    width: 67%;
+    animation: HTML 3s;
 }
 
-.skill-card i {
-    font-size: 7rem;
-    color: var(--main-color);
+.css{
+    width: 70%;
+    animation: css 3s;
 }
 
-.skill-card h3 {
-    font-size: 2.6rem;
+
+
+.python{
+    width: 65%;
+    animation: css 3s;
 }
 
-.skill-card p {
-    font-size: 1.6rem;
-    margin: 1rem 0 3rem;
+.javascript{
+    width: 40%;
+    animation: css 3s;
+}
+
+.csharp{
+    width: 30%;
+    animation: css 3s;
 }
 
 .portfolio h2 {
@@ -336,6 +368,7 @@ span{
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
+    
 }
 
 .contact form .input-box {
@@ -494,7 +527,28 @@ body.dark-theme {
     #menu-icon {
         display:block;
     }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background-color: var(--bg-color);
+        border-top: .1rem solid rgba(0,0,0,0.2);
+        box-shadow: 0 .5rrem 1rem rgba(0,0,0,0.2);
+        display: none;
 
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
     .home {
         flex-direction: column;
     }

@@ -256,6 +256,7 @@ h3{
 .HTML{
     width: 67%;
     animation: HTML 3s;
+    font-weight: 20px;
 }
 
 .css{
@@ -296,6 +297,7 @@ h3{
 .portfolio-container .portfolio-box {
     position: relative;
     border-radius: 2rem;
+    height: 400px;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
@@ -576,7 +578,7 @@ body.dark-theme {
     }
 
     .about-img img {
-        width: 90vw;
+        width: 50vw;
         margin-top: 4rem;
     }
 
@@ -606,7 +608,7 @@ body.dark-theme {
     }
 
     .about-img img {
-        width: 100vw;
+        width: 70vw;
         margin-top: 4rem;
     }
 }

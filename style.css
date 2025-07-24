@@ -180,7 +180,7 @@ span{
 
 .about-img img {
     width:35vw;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .heading {
@@ -202,6 +202,7 @@ span{
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: center;
 }
 
 h3{

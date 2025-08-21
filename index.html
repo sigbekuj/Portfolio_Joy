@@ -42,7 +42,7 @@
     <section class="home" id="home">
     <div class="home-content">
       <h1>Hi!, I'm Joy Sigbeku</h1>
-      <h3> <span>Software Developer</span></h3>
+      <h3> Your Future <span>Software Developer</span></h3>
       <p>
         Welcome to my Portfolio! 
       </p>
@@ -121,8 +121,8 @@
           <div class="portfolio-box">
           <img src="assets/binary.jpg" alt="">
           <div class="portfolio-layer">
-            <h4> C# Random number generator project </h4> 
-            <p> lorem e</p>
+            <h4> C# Random number guessing game </h4> 
+            <p> </p>
             <i class="fa-solid fa-up-right-from-square"></i>
 
             
@@ -188,34 +188,32 @@
         <!--Contact section-->
     <section class= "contact" id="contact_form">
       <h2 class="heading">Contact <span>Me </span></h2>
-      <form action="#" >
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="c77c101b-79ca-408b-9cab-a29fdf8b967e"/>
         <!-- Name input field -->
+
         <div class="input-box">
-          <input type="text" placeholder="Full Name" required />
-          <input type="text"placeholder="Email Address" required />
+          
+          <input type="text" name= "full-name" placeholder="Full Name" required />
+          <input type="text" name= "email" placeholder="Email Address" required />
         </div>
         <!-- Email input field -->
          <div class="input-box">
-          <input type="number"  placeholder="Mobile Number"  />
-          <input type="text"placeholder="Email Subject" required />
+          <input type="number" name="mobile-number" placeholder="Mobile Number"  />
+          <input type="text" name ="subject" placeholder="Email Subject" required />
         </div>
 
        
         <!-- Message textarea field -->
         
-        <textarea name="" id="" placeholder="Message" cols="30" rows="5" required></textarea>
+        <textarea name="message" id="" placeholder="Message" cols="30" rows="5" required></textarea>
 
         <!-- Submit button -->
-        <input type="submit" value="Send Message" class="btn"/>
+        <input type="submit" value="Submit" class="btn"/>
       </form>
     </section>
 
-       <!-- confirmation section -->
-        <section id="confirmation" class="confirmation-message">
-        <h1>Thank You!</h1>
-        <p>Your message has been received. I'll get back to you as soon as possible.</p>
-        <a href="index.html" class="back-home-btn">Return to Home</a>
-        </section>
+       
     
   </main>
 

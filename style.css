@@ -406,18 +406,6 @@ h3{
     border: none;
 }
 
-
-/*confirmation message */
-.confirmation-message{
-    /* hides the confirmation message */
-    display: none;
-    text-align: center;
-    padding: 3rem;
-}
- 
-/* the pseudo selector .active to display */
-.confirmation-message:active{   display: block; }
-
 .back-home-btn{
     display: inline-block;
     margin-top: 1rem;
